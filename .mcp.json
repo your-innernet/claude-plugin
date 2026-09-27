@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "innernet": {
+      "type": "http",
+      "url": "https://innernet.live/api/mcp"
+    }
+  }
+}

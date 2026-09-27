@@ -1,0 +1,11 @@
+{
+  "name": "innernet",
+  "displayName": "innernet",
+  "version": "1.0.1",
+  "description": "the memory your AI tools share — one versioned memory for every project and for you, read and written by Claude and every other tool over MCP.",
+  "author": { "name": "innernet", "email": "yours@innernet.live", "url": "https://innernet.live" },
+  "homepage": "https://innernet.live/docs/connect",
+  "repository": "https://github.com/your-innernet/claude-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "context", "projects", "knowledge", "mcp", "productivity"]
+}

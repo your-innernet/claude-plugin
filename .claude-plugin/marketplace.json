@@ -1,0 +1,13 @@
+{
+  "name": "innernet",
+  "owner": { "name": "innernet", "email": "yours@innernet.live", "url": "https://innernet.live" },
+  "metadata": { "description": "innernet — the memory your AI tools share." },
+  "plugins": [
+    {
+      "name": "innernet",
+      "source": "./",
+      "description": "one versioned memory for every project and for you, read and written over MCP.",
+      "category": "productivity"
+    }
+  ]
+}
