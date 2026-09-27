@@ -8,4 +8,5 @@
   "repository": "https://github.com/your-innernet/claude-plugin",
   "license": "MIT",
   "keywords": ["memory", "context", "projects", "knowledge", "handoff", "productivity"]
+  "privacyPolicyUrl": "…"
 }
