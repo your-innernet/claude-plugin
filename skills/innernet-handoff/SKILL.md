@@ -25,8 +25,8 @@ continues one started in Codex, Claude, or Cursor.
    dated `## history` line for what it superseded). The handoff is scratch; the map is memory.
 3. Anything the user still owes themselves: `innernet_task_create`.
 
-## carry it quietly
+## carry it lightly
 
-Reproduce the note in chat when reading it; otherwise do not narrate the bookkeeping.
+Reproduce the note in chat when reading it. When you write it, say so in one line.
 If innernet asks for authentication, the user signs in in their browser through the
 plugin's connection. Never ask them to paste an API key or token into the chat.

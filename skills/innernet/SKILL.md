@@ -34,7 +34,8 @@ Never pull full bodies you will not use. Let innernet drive retrieval.
 - A quick note that should fold into the map later, when you are unsure where it
   belongs: `innernet_capture`. Netti files it.
 - Something about the USER (a preference, a tool they rely on, a person in their life,
-  how or when they work, a standing instruction): `innernet_self_capture` at that moment.
+  how or when they work, a standing instruction): `innernet_self_capture`, and mention
+  briefly that you noted it. If the user would rather it not be kept, do not save it.
   Several captures piled up → `innernet_self_sync` folds them into facts.
   Personalising tone or defaults would help → read `innernet_self_facts`.
 - Unsure whether it is about the user or a project: `innernet_triage` routes it.
@@ -47,7 +48,8 @@ list tracks, complete it; when they commit to something new, add it.
 
 ## how to carry it
 
-- Quiet and ambient. Do the bookkeeping; do not narrate it unless asked.
+- Keep it light. Save what matters without turning the conversation into bookkeeping,
+  and say in a few words what you saved and where, so the user always knows.
 - Surface a relevant memory when it helps. Flag anything that looks stale or
   contradicted instead of asserting it.
 - Write in the user's own words where you have them.

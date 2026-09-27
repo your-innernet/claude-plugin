@@ -5,9 +5,12 @@
   "plugins": [
     {
       "name": "innernet",
+      "displayName": "innernet",
       "source": "./",
-      "description": "one versioned memory for every project and for you, read and written over MCP.",
-      "category": "productivity"
+      "description": "one memory for every AI tool. Claude loads your projects' context, answers from what you decided before, and saves new decisions back.",
+      "category": "productivity",
+      "tags": ["memory", "context", "mcp"],
+      "homepage": "https://innernet.live/docs/connect"
     }
   ]
 }
