@@ -1,0 +1,20 @@
+{
+  "name": "innernet",
+  "interface": {
+    "displayName": "innernet"
+  },
+  "plugins": [
+    {
+      "name": "innernet",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

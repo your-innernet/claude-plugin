@@ -1,0 +1,7 @@
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "innernet"
+      description: "innernet — the user's versioned memory across every AI tool: project context maps, personal memory, tasks"
+      transport: "streamable_http"
+      url: "https://innernet.live/api/mcp"

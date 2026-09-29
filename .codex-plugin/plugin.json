@@ -1,0 +1,53 @@
+{
+  "name": "innernet",
+  "version": "1.1.0",
+  "description": "the memory your AI tools share — one versioned memory for every project and for you, read and written over MCP.",
+  "author": {
+    "name": "innernet",
+    "email": "yours@innernet.live",
+    "url": "https://innernet.live"
+  },
+  "homepage": "https://innernet.live/docs/connect",
+  "repository": "https://github.com/your-innernet/innernet-mcp",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "context",
+    "projects",
+    "knowledge",
+    "mcp",
+    "productivity",
+    "developer tools"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "innernet",
+    "shortDescription": "innernet remembers your projects and who you are — every AI tool you use reads and writes the same living memory.",
+    "longDescription": "your AI conversations keep starting from zero. innernet is the memory that ends that — a living context layer every AI tool reads from and writes to.\n\nconnect once, and this assistant already knows your projects: what you're building, what you decided last month and why, what's in motion right now. work produces decisions; innernet saves them back — versioned like code, so nothing you thought is ever lost, and every tool stays current.\n\nwhat it does here:\n\n- loads your context maps — each project is a structured, versioned map of its vision, roadmap, decisions, and state. open one and the conversation continues where every other tool left off.\n- shows memory you can see — interactive views render your map inline: browse dimensions, read them in place, watch recent memory land.\n- keeps a living checklist — each project carries tasks that advance themselves as work happens; tick them off right in the conversation.\n- remembers you, carefully — a personal memory (voice, preferences, how you work) travels across every project, gated by disclosure levels you control. private stays private — enforced at read time, always.\n- finds skills for the work — search innernet's public community, load a skill into this conversation, or keep a private attributed copy in your own memory. when you explicitly ask, innernet can also publish or withdraw a skill on the public community with its author, licence, and source attached.\n- saves as you go — decisions and insight fold back into the map quietly, with a commit history you can walk.\n\ninnernet is platform-agnostic by design: the same memory serves ChatGPT, Codex, Claude, Cursor, VS Code, and any MCP client. no lock-in — your ideas, versioned, yours.\n\ninnernet needs a free innernet.live account — sign in once and your memory follows you here. connecting, reading and saving are free; higher-volume plans are optional and sold only at innernet.live, never inside this conversation.",
+    "developerName": "innernet",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://innernet.live",
+    "privacyPolicyURL": "https://innernet.live/privacy",
+    "termsOfServiceURL": "https://innernet.live/terms",
+    "defaultPrompt": [
+      "load my innernet project context",
+      "what did we decide about pricing? check innernet",
+      "find an innernet community skill for this task"
+    ],
+    "brandColor": "#1A1A1A",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot-session.png",
+      "./assets/screenshot-context.png",
+      "./assets/screenshot-map.png",
+      "./assets/screenshot-drafts.png"
+    ]
+  }
+}

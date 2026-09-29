@@ -8,8 +8,8 @@ why, what's in motion — and every tool you connect (Claude, ChatGPT, Codex,
 Cursor, any MCP client) reads and writes that same memory. open a project in
 Claude and the conversation picks up where your other tools left off.
 
-this plugin brings that memory into Claude: the innernet connector plus two
-skills that tell Claude when and how to use it.
+this plugin brings that memory into your AI tool: the innernet connector plus two
+skills that tell the assistant when and how to use it.
 
 ## what's inside
 
@@ -24,15 +24,35 @@ skills that tell Claude when and how to use it.
 
 ## use it
 
+one repo, every host. the same connector and the same two skills, packaged for each:
+
 **claude.ai · cowork** — customize → plugins → add, then connect innernet from
 the plugin's connectors tab and sign in.
 
 **claude code**
 
 ```
-/plugin marketplace add your-innernet/claude-plugin
+/plugin marketplace add your-innernet/innernet-mcp
 /plugin install innernet@innernet
 ```
+
+**codex**
+
+```
+codex plugin marketplace add your-innernet/innernet-mcp
+codex plugin add innernet@innernet
+```
+
+**cursor** — install innernet from the cursor marketplace, or add this repo as a plugin.
+
+**gemini cli**
+
+```
+gemini extensions install https://github.com/your-innernet/innernet-mcp
+```
+
+**any other MCP client** — add the remote server `https://innernet.live/api/mcp`.
+it is listed in the official MCP registry as `live.innernet/innernet`.
 
 you need a free account at [innernet.live](https://innernet.live). never paste
 an api key into a chat — the sign-in handles it.
@@ -43,6 +63,17 @@ try:
 - "what did we decide about pricing? check innernet"
 - "where did I leave off?"
 - "hand off — save my progress"
+
+## what's in the repo
+
+| file | read by |
+|---|---|
+| `.claude-plugin/` | Claude (directory, Claude Code marketplace) |
+| `.codex-plugin/` · `.agents/plugins/marketplace.json` | Codex · ChatGPT plugins |
+| `.cursor-plugin/` | Cursor marketplace |
+| `gemini-extension.json` · `GEMINI.md` | Gemini CLI extensions |
+| `server.json` | the official MCP registry |
+| `.mcp.json` · `skills/` | shared by all of them |
 
 ## data
 
