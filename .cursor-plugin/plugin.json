@@ -1,7 +1,7 @@
 {
   "name": "innernet",
   "displayName": "innernet",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "one memory for every AI tool. Cursor loads your projects' context, answers from what you decided before, and saves new decisions back, versioned and shared with every tool you connect.",
   "author": { "name": "innernet", "email": "yours@innernet.live" },
   "homepage": "https://innernet.live/docs/connect",

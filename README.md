@@ -91,6 +91,13 @@ try:
 
 privacy policy — https://innernet.live/privacy · terms — https://innernet.live/terms
 
+## releasing
+
+every push to `main` is a new version for the plugin directories, so each one raises
+`version` in all four plugin manifests (claude, codex, cursor, gemini) together.
+`python3 scripts/check.py` runs on every push and checks they agree. a change to the
+server's listing raises `server.json`'s version and is published with `mcp-publisher publish`.
+
 ## support
 
 docs — https://innernet.live/docs/connect · email — yours@innernet.live
