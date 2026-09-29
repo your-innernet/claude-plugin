@@ -1,6 +1,6 @@
 {
   "name": "innernet",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "one memory for every AI tool. load your projects' context, answer from what you decided before, and save new decisions back, versioned and shared with every tool you connect.",
   "mcpServers": {
     "innernet": {

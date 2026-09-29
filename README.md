@@ -95,8 +95,13 @@ privacy policy — https://innernet.live/privacy · terms — https://innernet.l
 
 every push to `main` is a new version for the plugin directories, so each one raises
 `version` in all four plugin manifests (claude, codex, cursor, gemini) together.
-`python3 scripts/check.py` runs on every push and checks they agree. a change to the
-server's listing raises `server.json`'s version and is published with `mcp-publisher publish`.
+`python3 scripts/check.py` runs on every push: the manifests parse, the versions agree,
+every url is `https://innernet.live/api/mcp`, the listing fits each directory's caps,
+and the skills name only tools the live server serves.
+
+`server.json` is the official MCP registry entry. its `version` follows the server's
+own `serverInfo.version`; when that moves, raise it here and run
+`./scripts/publish-registry.sh` (it signs in with the innernet.live domain key).
 
 ## support
 
